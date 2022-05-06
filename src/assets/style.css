@@ -1,14 +1,27 @@
 h1{
     font-family: 'Marcellus SC', serif;
     font-size: 45px;
+    color: white;
+    padding: 0px 0px 0px 0px;
 }
 p{
     font-family: 'Markazi Text', serif;
     font-size: 30px;
+    color: white;
+}
+#igual {
+    background: #411012;
+    height: 44px;
+    width: 135px;
+    text-align: center;
 }
 .linhaCima, .linhaBaixo{
     background-color: #411012;
     height: 57px;
+}
+.linhaBaixo{
+    position: sticky;
+    margin-top: 243px;
 }
 .fundo{
     background-color: #ffdfdf;
@@ -20,4 +33,21 @@ select, input{
     width: 18%;
     height: 41px;
     font-size: 21px;
+}
+#container-da-imagem {
+    width: 300px;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 102px 0px;
+}
+#ts {
+    margin-top: -563px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
