@@ -15,14 +15,6 @@ p{
     width: 135px;
     text-align: center;
 }
-.linhaCima, .linhaBaixo{
-    background-color: #411012;
-    height: 57px;
-}
-.linhaBaixo{
-    position: sticky;
-    margin-top: 243px;
-}
 .fundo{
     background-color: #ffdfdf;
 }
@@ -35,13 +27,13 @@ select, input{
     font-size: 21px;
 }
 #container-da-imagem {
-    width: 300px;
     position: relative;
 }
 img {
     width: 100%;
     height: auto;
-    padding: 0px 0px 102px 0px;
+    border-top: 57px solid #411012;
+    border-bottom: 57px solid #411012;
 }
 #ts {
     margin-top: -563px;
@@ -50,4 +42,8 @@ img {
     justify-content: center;
     text-align: center;
     position: relative;
+}
+main{
+    position: absolute;
+    padding: 15px;
 }
