@@ -21,7 +21,7 @@ export default {
 </script>
 <template>
     <main>
-      <div class="fundo">
+      <div class="container">
         <label for="valor">Valor:</label>
         <input id="valor" placeholder="1,00" type="number" />
         <label for="conversão">Converter de:</label>
