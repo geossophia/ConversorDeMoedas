@@ -4,6 +4,9 @@ h1{
     color: white;
     padding: 0px 0px 0px 0px;
 }
+body{
+    display: flex;
+}
 p{
     font-family: 'Markazi Text', serif;
     font-size: 30px;
@@ -15,16 +18,10 @@ p{
     width: 135px;
     text-align: center;
 }
-.linhaCima, .linhaBaixo{
-    background-color: #411012;
-    height: 57px;
-}
-.linhaBaixo{
-    position: sticky;
-    margin-top: 243px;
-}
-.fundo{
+.container{
     background-color: #ffdfdf;
+    width: 45%;
+    margin: 0 auto;
 }
 input, label, select{
     font-family: 'Marcellus SC', serif;
@@ -41,7 +38,9 @@ select, input{
 img {
     width: 100%;
     height: auto;
-    padding: 0px 0px 102px 0px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 60px solid #411012;
+    border-top: 60px solid #411012;
 }
 #ts {
     margin-top: -563px;
@@ -50,4 +49,8 @@ img {
     justify-content: center;
     text-align: center;
     position: relative;
+}
+.lugarDiv{
+    position: absolute;
+    padding: 76px;
 }
