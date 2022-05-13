@@ -1,16 +1,23 @@
 h1{
     font-family: 'Marcellus SC', serif;
-    font-size: 45px;
+    font-size: 4vw;
     color: white;
     padding: 0px 0px 0px 0px;
 }
 body{
     display: flex;
 }
+header{
+    padding: 0px 0px 60px 0px;
+}
 p{
     font-family: 'Markazi Text', serif;
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
+    display: flex;
+    letter-spacing: 1.2rem;
+    width: 1152px;
+    justify-content: center;
 }
 #igual {
     background: #411012;
@@ -19,23 +26,25 @@ p{
     text-align: center;
 }
 .container{
-    background-color: #ffdfdf;
-    width: 45%;
+    background-color: #F5F4F4;
+    width: 77%;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
+    padding: 48px;
 }
 input, label, select{
     font-family: 'Marcellus SC', serif;
+
 }
 select, input{
     width: 18%;
     height: 41px;
     font-size: 21px;
+    background-color: #C4C4C4;
+    border: none;
 }
-#container-da-imagem {
-    width: 300px;
-    position: relative;
-}
-img {
+.image{
     width: 100%;
     height: auto;
     padding: 0px 0px 0px 0px;
