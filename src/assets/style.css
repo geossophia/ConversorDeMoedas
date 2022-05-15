@@ -1,65 +1,90 @@
-h1{
+header .fundo .posi .conteudo h1{
     font-family: 'Marcellus SC', serif;
-    font-size: 4vw;
+    font-size: 5vw;
     color: white;
     padding: 0px 0px 0px 0px;
 }
-body{
-    display: flex;
+*{
+    padding: 0;
+    margin: 0;
 }
-header{
-    padding: 0px 0px 60px 0px;
-}
-p{
+header .fundo .posi .conteudo p{
     font-family: 'Markazi Text', serif;
-    font-size: 2vw;
+    font-size: 4vh;
     color: white;
     display: flex;
     letter-spacing: 1.2rem;
-    width: 1152px;
-    justify-content: center;
+    max-width: 1152px;
+    margin: 0 auto;
 }
-#igual {
+main .conteudoMain .container .igual {
     background: #411012;
     height: 44px;
     width: 135px;
     text-align: center;
+    color: white;
 }
-.container{
+main{
+    padding: 64px;
+}
+main .conteudoMain .container{
     background-color: #F5F4F4;
-    width: 77%;
+    max-width: 800px;
+    min-width: 320px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     padding: 48px;
+    min-height: 40vh;
 }
 input, label, select{
     font-family: 'Marcellus SC', serif;
-
+    font-size: 20px;
+}
+.inputValor, .inputConversaoDe, .inputConversaoPara, .igual{
+    padding: 0px 15px 0px 15px;
+}
+select{
+    width: 100%;
+}
+input{
+    min-width: 22%;
+    padding: 0px 0px 0px 5px;
 }
 select, input{
-    width: 18%;
     height: 41px;
-    font-size: 21px;
+    font-size: 16px;
     background-color: #C4C4C4;
     border: none;
+    flex-wrap: wrap;
+
 }
-.image{
+header .posi .image{
     width: 100%;
     height: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     border-bottom: 60px solid #411012;
     border-top: 60px solid #411012;
 }
-#ts {
-    margin-top: -563px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+header .fundo .posi .conteudo {
+    width: 100%;
+    height: 100%;
     text-align: center;
-    position: relative;
+    margin: 140px 0;
 }
-.lugarDiv{
-    position: absolute;
-    padding: 76px;
+header .fundo .posi {
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header .fundo{
+    background-image: url(img/lcdp.jpeg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 60px solid #411012;
+    border-top: 60px solid #411012;
 }

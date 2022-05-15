@@ -21,25 +21,39 @@ export default {
 </script>
 <template>
     <main>
-      <div id="fundo">
+      <div class="conteudoMain">
         <div class="container" id="conversao">
-          <label for="valor">Valor:</label>
-          <input id="valor" placeholder="1,00" type="number" />
-          <label for="conversão">Converter de:</label>
-          <select name="unidades" id="conversão">
-            <option
-              v-for="moeda of moedas"
-              :key="moeda.moeda"
-              for="conversão"
-              value="moeda.moeda"
-            >
-              {{ moeda.nome }}
-            </option>
-          </select>
-          <p id="igual">=</p>
-          <input type="text" />
-          Para:
-          <!-- /button// -->
+          <div class="inputValor">
+            <label for="valor">Valor:</label>
+            <input id="valor" placeholder="1,00" type="number" />
+          </div>
+          <div class="inputConversaoDe">
+            <label for="conversaoDe">Converter de:</label>
+            <select name="unidades" id="conversaoDe">
+              <option
+                v-for="moeda of moedas"
+                :key="moeda.moeda"
+                for="conversão"
+                value="moeda.moeda"
+              >
+                {{ moeda.nome }}
+              </option>
+            </select>
+          </div>
+          <div class="igual">=</div>
+          <div class="inputConversaoPara">
+            <label for="conversaoPara">Para:</label>
+            <select name="unidades" id="conversaoPara">
+              <option
+                v-for="moeda of moedas"
+                :key="moeda.moeda"
+                for="conversão"
+                value="moeda.moeda"
+              >
+                {{ moeda.nome }}
+              </option>
+            </select>
+          </div>
         </div>
         <div class="resultado">
           <input type="number" />
