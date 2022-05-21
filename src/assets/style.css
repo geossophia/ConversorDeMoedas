@@ -1,8 +1,10 @@
 header .fundo .posi .conteudo h1{
     font-family: 'Marcellus SC', serif;
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     padding: 0px 0px 0px 0px;
+    letter-spacing: 0.8rem;
+    font-weight: bold;
 }
 *{
     padding: 0;
@@ -10,50 +12,70 @@ header .fundo .posi .conteudo h1{
 }
 header .fundo .posi .conteudo p{
     font-family: 'Markazi Text', serif;
-    font-size: 4vh;
+    font-size: 3.5vh;
     color: white;
     display: flex;
-    letter-spacing: 1.2rem;
-    max-width: 1152px;
+    letter-spacing: 0.8rem;
+    line-height: 22px;
+    font-weight: 100;
+    max-width: 885px;
+    height: 85px;
     margin: 0 auto;
 }
-main .conteudoMain .container .igual {
+main .container .igual {
     background: #411012;
     height: 44px;
     width: 135px;
+    font-size: 25px;
     text-align: center;
     color: white;
+    display: block;
+    margin: 36px 0px 0px 0px;
+
 }
 main{
-    padding: 64px;
+    padding: 64px 0px 0px 0px;
 }
-main .conteudoMain .container{
+main .container, .resultado{
     background-color: #F5F4F4;
-    max-width: 800px;
+    max-width: 1088px;
     min-width: 320px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     padding: 48px;
-    min-height: 40vh;
+    min-height: 26vh;
 }
 input, label, select{
     font-family: 'Marcellus SC', serif;
-    font-size: 20px;
+    font-size: 25px;
 }
-.inputValor, .inputConversaoDe, .inputConversaoPara, .igual{
-    padding: 0px 15px 0px 15px;
+#valor{
+    width: 84%;
+    font-family: 'Markazi Text', serif;
+    font-size: 25px;
+
+}
+.inputConversaoDe, .inputConversaoPara, .igual{
+    padding: 0px 18px 0px 18px;
+}
+.inputValor, .inputConversaoDe{
+    padding: 0px 18px 0px 0px;
 }
 select{
     width: 100%;
 }
 input{
+    display: block;
     min-width: 22%;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 19px;
+}
+main .container .inputConversaoDe{
+    margin: 0px 0px 0px -45px;
 }
 select, input{
     height: 41px;
-    font-size: 16px;
+    font-size: 19px;
     background-color: #C4C4C4;
     border: none;
     flex-wrap: wrap;
@@ -79,12 +101,35 @@ header .fundo .posi {
     flex-wrap: wrap;
 }
 header .fundo{
-    background-image: url(img/lcdp.jpeg);
-    height: 100%;
+    background-image: url(/src/assets/img/lcdp.jpeg);
+    height: 475px;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 60px solid #411012;
     border-top: 60px solid #411012;
+}
+header .fundo i{
+    color:white;
+    font-size: 48px;
+    margin-top: -74px;
+    display: flex;
+    justify-content: center;
+}
+main .resultado #resultadoDaConversao{
+    background-color: #411012;
+    color: white;
+    font-family: 'Markazi Text', serif;
+    font-size: 25px;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+}
+main .resultadoC{
+    margin: 0 auto;
+}
+main .resultado{
+    padding: 0;
+    min-height: 30vh;
 }

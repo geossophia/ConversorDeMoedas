@@ -12,6 +12,7 @@ export default {
                     <p>Dolar americano, Euro, Libra Estelina, Lene, Dolar Australiano, Franco Suiço, Dolar Canadense, Renminbi(yuan), Peso argentino, Lira Turca</p>                    
                 </div>
             </div>
+            <i class="fa fa-arrow-circle-o-down"></i>
         </div>
   </header>
 </template>
